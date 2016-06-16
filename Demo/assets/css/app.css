@@ -1,0 +1,199 @@
+/* Write your styles */
+
+body.g-document-blue-bg {
+	background-color: #22548f;
+}
+
+body.g-share-blue-bg {
+	background-color: #143666;
+}
+
+body.g-default-bg {
+	background-color: #fff;
+}
+
+img.full-width {
+	min-width: 100%;
+}
+
+.g-share-warp {
+	position: relative;
+}
+
+.g-share-badge-warp {
+	position: absolute;
+	width: 100%;
+	line-height: 1rem;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.g-share-badge-warp .am-badge {
+	width: 100%;
+	font-size: 1.0rem;
+	line-height: 1.0rem;
+	background-color: #000;
+}
+
+.g-share-img-warp {
+	position: absolute;
+	width: 100%;
+	top: 0.7rem;
+	left: 0;
+	z-index: 9;
+}
+
+.g-share-img-warp .g-share-block {
+	margin: 0rem 1rem;
+	background-color: #fff;
+}
+
+.g-share-img-warp .g-share-block .g-share-img {}
+
+.g-share-img-warp .g-share-block .g-share-text {}
+
+.g-share-img-warp .g-share-block .g-share-like {}
+
+.d_content {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: 1.5rem;
+	padding-bottom: 10px;
+}
+
+.d_wrop input {
+	width: 74%;
+	border: none;
+	outline: none;
+	margin-left: 1rem;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
+.d_next {
+	width: 95%;
+	height: auto;
+	overflow: hidden;
+	background-color: #ffc832;
+	color: #fff;
+	margin: 0 auto;
+	border-radius: 5px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 30px;
+	display: block;
+}
+
+.d_content .title {
+	background-color: #2DA8DF;
+	text-align: center;
+	color: #fff;
+	line-height: 35px;
+}
+
+.d_hold {
+	background-color: #fab815;
+	color: #fff;
+	float: right;
+	border-radius: 5px;
+	line-height: 25px;
+	vertical-align: middle;
+	margin-top: 3px;
+	margin-right: 5px;
+	font-size: 1.2rem;
+	padding: 2px 7px;
+}
+
+.d_wrop>div {
+	border: 1px solid #DDD;
+	line-height: 35px;
+	margin: 8px;
+	margin-top: 20px;
+	padding-left: 7px;
+}
+
+.text input {
+	width: 40%;
+}
+
+.d_name {
+	margin-left: 60%;
+	width: 33%;
+	float: right;
+	text-align: right;
+	overflow: hidden;
+	margin-right: 8px;
+	text-overflow: ellipsis;
+	margin-top: 6px!important;
+	height: auto;
+	overflow: hidden;
+}
+
+.d_error {
+	width: 60%;
+	margin: 0 auto;
+	background-color: #fff;
+	z-index: 100;
+	position: fixed;
+	top: 40%;
+	left: 20%;
+	border: 1px solid #666;
+	color: red;
+	border-radius: 8px;
+}
+
+.d_error2 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.d_women,.d_man{
+
+	background-color: #919191;
+	height: auto;
+	overflow: hidden;
+	border-radius:30px ;
+	width: 60px;
+	padding: 2px 8px;
+	margin-right: 10px;
+		color:#fff;
+		font-size:1.2rem
+}
+.d_women img,.d_man img{
+	width:13px;
+
+	margin-right: 4px;
+}
+.d_nei{
+	float: right;
+	width:130px;
+	height: auto;
+	overflow: hidden;
+}
+#d_date{
+	
+}
+.d_head{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	background-color:#f7f7f7;
+	font-size: 1.2rem;
+
+	color:#919191;
+}
+.d_head p{
+	margin: 0;
+	line-height:25px;
+}
+ul,li{
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

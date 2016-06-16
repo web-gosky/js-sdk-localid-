@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>我是故事王</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="./assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="./assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		         <meta name="csrf-token" content="{{ csrf_token() }}">
+   		 <meta name="base-url" content="{{ config('app.url') . '/' . $expert_code }}">
+		<link rel="apple-touch-icon-precomposed" href="./assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="./assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.0/css/amazeui.min.css">
+		<link rel="stylesheet" href="./assets/css/app.css">
+		<style>
+			.d_man {
+				width: 60px;
+			}
+		</style>
+	</head>
+
+	<body class="g-document-blue-bg">
+		<img src="../images/1-auth-01.png" class="am-img-responsive full-width" alt="4-document-01-01.png" />
+		<div class="am-g am-margin-top-sm">
+			<div class="am-u-sm-20 am-u-sm-offset-0 am-u-md-8 am-u-md-offset-2">
+				<div class="d_content">
+					<div class="title">报名信息</div>
+					<div class="d_wrop">
+						<div class="iphone">昵称<input id="d_name" class="d_name" type="text" maxlength="11" placeholder="妹妹蓝"></div>
+						<div class="text">生日<input id="d_date"  class="d_name" type="date" maxlength="4" placeholder="2016-12-1"></div>
+						<div class="sex">性别
+
+							<div class="d_nei"><span class="d_man" js_sex="0"><img src="assets/images/man.png">男孩</span><span class="d_women"  js_sex="0"><img src="assets/images/women.png">女孩</span></div>
+						</div>
+					</div>
+
+				</div>
+				<a class="d_next">确认报名</a>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/login.js"></script>
+
+</html>
